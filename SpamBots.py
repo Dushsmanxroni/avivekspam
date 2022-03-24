@@ -329,7 +329,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("𝐀𝐀 𝐑𝐀𝐇𝐀 𝐁𝐒𝐃𝐊𝐄 ")
+                await event.edit("🇦 🇦 🇷 🇦 🇭 🇭 🇦  🇧 🇨  ")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -384,7 +384,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("𝐂𝐇𝐀𝐋𝐎 𝐂𝐇𝐔𝐃 𝐆𝐀𝐘𝐀 𝐘𝐄 𝐊𝐈𝐃𝐙𝐙 👅")
+                await event.edit("𝐂𝐇𝐀𝐋𝐎 𝐂𝐇𝐔𝐃 𝐆𝐀𝐘𝐀 𝐘𝐄 𝐊𝐈𝐃𝐙𝐙 𝓫𝔂 🇷 🇴 🇳 🇮 🇳 👅")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -724,7 +724,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"☠️ 🇳 🇴 🇧 🇮 !\n`{ms}` ms\n🔥𝐍𝐎𝐁𝐈𝐓𝐀_𝐒𝐏𝐀𝐌🔥")
+        await event.edit(f"☠️ 🇷 🇴 🇳 🇮 🇳  !\n`{ms}` ms\n🔥ÁVíÉḰ íś ŐŃ 🇫 🇮 🇷 🇪 🔥")
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
